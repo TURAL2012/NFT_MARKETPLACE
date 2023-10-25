@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT Marketplace</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./owl.carousel.min.css" />
+    <link rel="stylesheet" href="./owl.theme.default.min.css" />
+
+    <link rel="stylesheet" href="assets/sass/style.css" />
+  </head>
+  <body>
+    <div class="dott-1"></div>
+    <div class="dott-2"></div>
+    <header>
+      <div class="logo-div">
+        <div class="circle">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+        <img src="https://meta-portal-react.vercel.app/img/logo.png" alt="" />
+      </div>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Collection</li>
+        <li>Blog</li>
+        <li>Contact</li>
+      </ul>
+      <div class="btn-s-div">
+        <button>CONNECT TO WALLET</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img
+            src="https://meta-portal-react.vercel.app/img/slider/1.jpg"
+            alt=""
+            width="500"
+            height="500"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://meta-portal-react.vercel.app/img/slider/2.jpg"
+            alt=""
+            width="500"
+            height="500"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://meta-portal-react.vercel.app/img/slider/3.jpg"
+            alt=""
+            width="500"
+            height="500"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://meta-portal-react.vercel.app/img/slider/4.jpg"
+            alt=""
+            width="500"
+            height="500"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://meta-portal-react.vercel.app/img/slider/5.jpg"
+            alt=""
+            width="500"
+            height="500"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://meta-portal-react.vercel.app/img/slider/6.jpg"
+            alt=""
+            width="500"
+            height="500"
+          />
+        </div>
+        <div class="item">
+          <img
+            src="https://meta-portal-react.vercel.app/img/slider/7.jpg"
+            alt=""
+            width="500"
+            height="500"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="numbers">
+      <div class="number-div">
+        <h1>9999</h1>
+        <h4>Total Items</h4>
+      </div>
+      <div class="number-div">
+        <h1>3.90 k+</h1>
+        <h4>Total Owners</h4>
+      </div>
+      <div class="number-div">
+        <h1>2.40</h1>
+      <h4>Floor Price (ETH)</h4>
+      </div>
+      <div class="number-div">
+        <h1>144k+</h1>
+        <h4>Volume Traded (ETH)</h4>
+      </div>
+    </section>
+
+    <script src="./jquery.min.js"></script>
+    <script src="./owl.carousel.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel();
+      });
+
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoWidth: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 5,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
